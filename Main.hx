@@ -65,7 +65,8 @@ class Main {
         for (f in 0...files.length) {
             list = Element(files[files.length-1-f], list);
         }
-
+        trace("list:");
+        trace(list);
         return list;
     }
 
